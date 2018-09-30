@@ -1,0 +1,21 @@
+:root {
+  --primary: #f05424;
+  --primaryDark: #d33d0e;
+  --fontBody: 'Open Sans', sans-serif;
+  --fontHeader: 'Roboto', sans-serif;
+  --fontSizeBody: 1.5rem;
+  --fontSizeButton: 1.6rem;
+}
+
+* {
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+p {
+  font-family: var(--fontBody);
+}
+
+footer {
+  display: none !important;
+}

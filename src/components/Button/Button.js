@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './index.css';
+
 export default class Button extends React.Component {
   static propTypes = {
     text: PropTypes.string,
@@ -20,9 +22,10 @@ export default class Button extends React.Component {
 
     return (
       <button
+        className="button"
         onClick={ onClick }
       >
-        <p>{ text }</p>
+        { text }
       </button>
     );
   }
