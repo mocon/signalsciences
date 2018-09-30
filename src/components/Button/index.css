@@ -4,6 +4,7 @@
   font-size: var(--fontSizeBody);
   font-weight: 700;
   text-transform: uppercase;
+  border-radius: 1px;
   color: white;
   border: none;
   padding: 1rem 3.2rem;

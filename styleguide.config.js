@@ -6,8 +6,8 @@ module.exports = {
   components: 'src/components/**/[A-Z]*.js',
   theme: {
     color: {
-      link: '#f05424',
-      linkHover: '#d33d0e'
+      link: '#d33d0e',
+      linkHover: '#f05424'
     },
     fontFamily: {
       base: 'Open Sans'
@@ -27,5 +27,10 @@ module.exports = {
   require: [
     'babel-polyfill',
     path.join(__dirname, './public/core.css')
-  ]
+  ],
+  getComponentPathLine(componentPath) {
+    const name = path.basename(componentPath, '.js');
+    const dir = path.dirname(componentPath);
+    return `import ${name} from '${dir}';`;
+  }
 };
