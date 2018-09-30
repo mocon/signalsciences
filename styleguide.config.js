@@ -1,3 +1,4 @@
 module.exports = {
-  components: 'src/components/**/*.js'
+  title: 'Signal Sciences',
+  components: 'src/components/**/[A-Z]*.js'
 };
