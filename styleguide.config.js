@@ -4,6 +4,9 @@ const path = require('path');
 module.exports = {
   title: 'Signal Sciences',
   components: 'src/components/**/[A-Z]*.js',
+  ignore: [
+    // 'src/components/StatBlock/StatBlockWrapper.js'
+  ],
   theme: {
     color: {
       link: '#d33d0e',
@@ -19,7 +22,7 @@ module.exports = {
       links: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto'
+          href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:400,700'
         }
       ]
     }

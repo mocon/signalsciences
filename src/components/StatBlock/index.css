@@ -1,0 +1,28 @@
+.sci-stat-block__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.sci-stat-block {
+  background-color: var(--dark);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+
+.sci-stat-block__header {
+  font-family: var(--fontHeader);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--primaryDark);
+  white-space: nowrap;
+}
+
+.sci-stat-block__info {
+  color: white;
+  line-height: 1.5;
+  font-weight: 300;
+}

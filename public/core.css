@@ -1,10 +1,12 @@
 :root {
   --primary: #f05424;
   --primaryDark: #d33d0e;
+  --dark: #2b2734;
   --fontBody: 'Open Sans', sans-serif;
   --fontHeader: 'Roboto', sans-serif;
+  --unit: 1rem;
   --fontSizeBody: 1.5rem;
-  --fontSizeButton: 1.6rem;
+  --fontSizeButton: 1rem;
 }
 
 * {
