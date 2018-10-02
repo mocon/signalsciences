@@ -1,6 +1,8 @@
 :root {
   --primary: #f05424;
   --primaryDark: #d33d0e;
+  --success: #42ba78;
+  --successDark: #318a59;
   --dark: #2b2734;
   --fontBody: 'Open Sans', sans-serif;
   --fontHeader: 'Roboto', sans-serif;

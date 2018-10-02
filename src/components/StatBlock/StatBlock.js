@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import './index.css';
 
-export default class StatBlock extends React.Component {
+export default class StatBlock extends Component {
+
   static propTypes = {
     header: PropTypes.string,
     info: PropTypes.string
