@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import StatBlockWrapper from './';
-
 import './index.css';
 
 export default class StatBlock extends React.Component {

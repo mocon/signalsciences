@@ -4,9 +4,8 @@ const path = require('path');
 module.exports = {
   title: 'Signal Sciences',
   components: 'src/components/**/[A-Z]*.js',
-  ignore: [
-    // 'src/components/StatBlock/StatBlockWrapper.js'
-  ],
+  skipComponentsWithoutExample: true,
+  styleguideDir: 'docs',
   theme: {
     color: {
       link: '#d33d0e',
@@ -29,7 +28,8 @@ module.exports = {
   },
   require: [
     'babel-polyfill',
-    path.join(__dirname, './public/core.css')
+    path.join(__dirname, './public/core.css'),
+    path.resolve(__dirname, 'docs/setup.js')
   ],
   getComponentPathLine(componentPath) {
     const name = path.basename(componentPath, '.js');
